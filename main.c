@@ -3,5 +3,6 @@ int main()
 {
     printf("sdf");
     print("random change");
+    int a ;
     return 0 ; 
 }
