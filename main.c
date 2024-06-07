@@ -2,5 +2,6 @@
 int main()
 {
     printf("sdf");
+    print("random change");
     return 0 ; 
 }
