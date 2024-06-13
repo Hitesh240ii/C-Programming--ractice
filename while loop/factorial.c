@@ -21,5 +21,6 @@ int main(void)
         }
     }
     printf("value of factorial is %d",factorial);
+    printf("DONE");
     return 0;
 }
