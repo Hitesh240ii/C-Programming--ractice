@@ -1,3 +1,4 @@
+//nested loop example
 #include <stdio.h>
 int main()
 {
