@@ -6,7 +6,7 @@ int main(void)
 
     for(i=1; i<=100 ; i++)
     {
-        sum +=i;
+        sum +=i; // sum = sum + i
 
     }
     printf(" sum of first 100 natural numbers is %d", sum);
