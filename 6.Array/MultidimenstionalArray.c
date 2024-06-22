@@ -4,3 +4,8 @@
 
 // 3D array is like a cube (TP)
 
+// 2D array syntax
+
+   // data_type name[rows][columns]: 
+
+    //eg of 2d array      
