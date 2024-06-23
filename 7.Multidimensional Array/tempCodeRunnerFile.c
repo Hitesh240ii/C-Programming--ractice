@@ -1,0 +1,1 @@
+printf("Sum Of row %d is %d",i ,sum);
