@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
- {
+{
     // Define two 2x2 matrices
     int matrix1[2][2] = {{1, 2}, {3, 4}};
     int matrix2[2][2] = {{5, 6}, {7, 8}};
@@ -22,4 +22,5 @@ int main()
         }
         printf("\n");
    
+    }
 }
