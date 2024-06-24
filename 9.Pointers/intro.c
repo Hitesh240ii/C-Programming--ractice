@@ -13,7 +13,7 @@ int main()
     int *ptr = &var; //*ptr will is the declaration of the pointer and ptr holds the address 
 
     printf("%d\n",var);  // prints the var i.e 42
-    printf("%p",&var);  // prints the address of var 
+    printf("%p",ptr);  // prints the address of var 
 
     return 0;
 }
