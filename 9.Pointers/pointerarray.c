@@ -10,6 +10,7 @@ int main(void)
     printf("The address of the value at position 1 is %d\n",arr);
     printf("The address of the value at position 2 is %d\n", arr+1);
 
+//arr-- is not applicable 
 
     printf("The  VALUE address of the value at position 1 is %d\n",*(&arr[0]));
     printf("The  VALUE address of the value at position 2 is %d\n",*(&arr[1]));
