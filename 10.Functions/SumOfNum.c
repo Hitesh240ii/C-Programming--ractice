@@ -1,6 +1,8 @@
 #include <stdio.h>
 int num1;
 int num2;
+
+
 void Sum()
 {
     printf("ENter first number:");
