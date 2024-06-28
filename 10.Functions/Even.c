@@ -1,17 +1,23 @@
 #include <stdio.h>
 
-int isEven(int num);
+int num;
+void isEven(int num)
+{
+    printf("enter a number:");
+    scanf("%d",&num);
 
-int main() {
-    int num = 4;
-    if (isEven(num)) {
-        printf("%d is even.\n", num);
-    } else {
-        printf("%d is odd.\n", num);
+    if (num==0 || num%2==0)
+    {
+        printf(" %d is even", num);
     }
-    return 0;
+    else
+    {
+        printf(" %d is odd",num);
+    }
 }
 
-int isEven(int num) {
-    return num % 2 == 0;
+int main(void)
+{
+    isEven(num);
+    return 0;
 }
