@@ -1,14 +1,14 @@
 #include <stdio.h>
-
-int square(int num);
-
-int main() {
-    int num = 5;
-    int result = square(num);
-    printf("The square of %d is %d\n", num, result);
-    return 0;
+int num;
+void sqr(int num)
+{
+    printf("%d is the square of the number",num*num);
 }
 
-int square(int num) {
-    return num * num;
+int main(void)
+{
+    printf("Enter a number to square:");
+    scanf("%d",&num);
+    sqr(num);
+    return 0;
 }
