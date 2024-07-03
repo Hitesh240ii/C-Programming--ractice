@@ -21,3 +21,11 @@ int main(void) {
 }
  
     //in 8th line recursive function is used
+    /*
+    10 + sum(9)
+    10 + ( 9 + sum(8) )
+    10 + ( 9 + ( 8 + sum(7) ) )
+    ...
+    10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 + sum(0)
+    10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 + 0
+    */
