@@ -9,8 +9,9 @@ int main(void)
 
     for (int i=0; i<=num ; i++)
     {
-        if ( i%3==0 && i%5==0)
+        if ( i%3==0 && i%5==0)  //or take lcm of 3 and 5 ,ie 15. then there is no use of if statement ok
         {
+            printf("%d can be divided by 3 and 5 : \n",i);
             sum = sum+i;
         }
     }
