@@ -10,6 +10,7 @@ int sequence(int length)
         num = num*10+9;
     }
     printf("%d",num);
+    return num;
 }
 
 
