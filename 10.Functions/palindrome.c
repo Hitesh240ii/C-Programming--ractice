@@ -7,17 +7,17 @@ int findSecondLargest(int arr[], int size) {
     }
     
     int first = arr[0];
-    int second = -1;
+    int sec = -1;
 
     for (int i = 1; i < size; i++) {
         if (arr[i] > first) {
-            second = first;
+            sec = first;
             first = arr[i];
-        } else if (arr[i] > second && arr[i] != first) {
-            second = arr[i];
+        } else if (arr[i] > sec&& arr[i] != first) {
+            sec = arr[i];
         }
     }
-    return second;
+    return sec;
 }
 
 int main() {
