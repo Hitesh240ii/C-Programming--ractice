@@ -4,6 +4,7 @@ int main(void)
 {
     int num1,term ; // DIFFERENCE IS 2 , FIRST TERM IS 1 , AND THE FORUMULA IS 
                     // Nth term = first term +( n - 1 )*d
+                    //simple code just use formulae 
                     
     printf("Enter the number of the term you want :");
     scanf("%d", &num1);
