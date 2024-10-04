@@ -3,6 +3,7 @@
 int main(void)
 {
     //formula is Sn = (a1 + an )*n/2
+    //easy code just by using formulae and inputs and outputs using scanf function
     
     int iniTerm, nterm, num;
 
