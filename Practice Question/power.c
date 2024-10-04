@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <math.h>
 
+//we can solve this problem by using math library
 int main()
 {
     int num, pow; // num = 2, pow = 3 <---> num*num*num = 2*2*2 = 8
