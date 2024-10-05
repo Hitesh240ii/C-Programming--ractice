@@ -7,7 +7,7 @@ int main(void)
 
     for (i = 0 ; i<10 ; i++)
     {
-        printf("Enter your phone number :");
+        printf("Enter your phone number %d:",i+1);
         scanf("%d",&Num[i]);
     }
     maxmIndex = Num[0];
