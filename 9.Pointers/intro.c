@@ -15,7 +15,8 @@ int main()
     int *ptr = &var; //*ptr will is the declaration of the pointer and ptr holds the address 
 
     int *ptr2 = NULL ; // this is NULL pointer
-    printf("%d\n",var);  // prints the var i.e 42
+    printf("printing the value of var");
+    printf("%d\n",var);  // it will prints the var i.e 42
 
      
     printf("This is the address of the variable var %p\n", ptr);  // prints the address of var or
