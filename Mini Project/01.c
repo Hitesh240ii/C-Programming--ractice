@@ -7,6 +7,8 @@ void displayBoard();
 int checkWin();
 
 int main() {
+
+    
     int player = 1, choice;
     char mark;  // X or O for players
     int status = -1;  // Game status: -1 = ongoing, 1 = win, 0 = draw
