@@ -6,6 +6,11 @@ int main(void)
 
     for (i =0 ; i<4 ; i++)
     {
+        printf("%d\n",*(&arr[i])); // This will print value of the array elements
+    }
+
+    for (i =0 ; i<4 ; i++)
+    {
         printf("%p\n",&arr[i]); // This will print address of the array elements
     }
 
